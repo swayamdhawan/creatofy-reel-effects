@@ -50,7 +50,7 @@ Do this before planning anything else: if they gave timings in seconds for the o
 
 A single effect needs no plan: `.venv/bin/python scripts/fx.py orbit <video> <out.mp4> --start 3 --end 6 --text "..." --opt key=value`.
 
-## Full edit recipe (the Adam Digital way)
+## Full edit recipe (the Creatofy way)
 1. Cut the pauses (step 3). Get the words (step 4) and fix names.
 2. Captions on, style `clean`: white words, one keyword per short phrase in gold serif italic. Pass `keywords` with the product names, numbers and the verbs being shown.
 3. One effect every 3 to 6 seconds, 1.5 to 4 seconds each, landing on the spoken word:
@@ -125,7 +125,7 @@ A single effect needs no plan: `.venv/bin/python scripts/fx.py orbit <video> <ou
 
 Aliases work too: `bill`, `to-do`, `follow`, `stamp`, `countdown`, `cover`, `rain`, `pause`, `wave`.
 
-## Adam Digital effects and captions
+## Creatofy effects and captions
 | # | `fx` name | What it does | Options (all optional) |
 |---|---|---|---|
 | 52 | `pop-word` | A huge bold word pops in behind your head; the top of your head covers the bottom of it | `text`, `color` (hex), `brand` (use a brand's colour, e.g. `claude`), `size` (`big`) |

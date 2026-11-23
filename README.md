@@ -4,7 +4,7 @@
 
 Drop your talking-head video into Claude Code and type `/effects`. You get 55 effects, word-by-word captions, sound effects and pause trimming, all in one place.
 
-Packaged and maintained by **Creatofy** ([creatofy.com](https://creatofy.com)). Built on open-source work by Adam Digital and Vibha Ramprakash (see Credits).
+Packaged and maintained by **Creatofy** ([creatofy.com](https://creatofy.com)).
 
 ![All 55 effects and the 4 caption styles](assets/preview.jpg)
 
@@ -131,6 +131,6 @@ Bonus looks: `/effects glitter-spotlight` (golden rays and sparkles), `cover-sta
 Just tell Claude what you see ("the word covers my face", "the captions are too big", "it's too fast"). It will fix the plan and render again.
 
 ## Credits
-Created and maintained by Creatofy (MIT). Effects engine based on claude-video-effects by Vibha Ramprakash (MIT). Captions, pause trimming, sound effects, the profile setup and the pop-word, logo-link, card-drop and halftone-paper effects by Adam Digital.
+Created and maintained by Creatofy (MIT). Effects engine based on claude-video-effects by Vibha Ramprakash (MIT).
 
-Face tracking: OpenCV YuNet (MIT). Person cut-out: MediaPipe Selfie Segmenter (Apache 2.0). Word timing: faster-whisper (MIT). Brand logos: Simple Icons (CC0); the logos are trademarks of their owners. Fonts: Archivo Black, Instrument Serif, Space Mono, Inter, Anton, Montserrat, Playfair Display, Poppins (SIL OFL) and Permanent Marker (Apache 2.0); licences are in `fonts/`. Everything else: MIT, see `LICENSE`. Upstream: [adamgodigital/claude-reel-effects](https://github.com/adamgodigital/claude-reel-effects).
+Face tracking: OpenCV YuNet (MIT). Person cut-out: MediaPipe Selfie Segmenter (Apache 2.0). Word timing: faster-whisper (MIT). Brand logos: Simple Icons (CC0); the logos are trademarks of their owners. Fonts: Archivo Black, Instrument Serif, Space Mono, Inter, Anton, Montserrat, Playfair Display, Poppins (SIL OFL) and Permanent Marker (Apache 2.0); licences are in `fonts/`. Everything else: MIT, see `LICENSE`.

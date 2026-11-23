@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Adam Digital video effects for Claude: 55 effects, word-by-word captions and sound effects.
+"""Creatofy video effects for Claude: 55 effects, word-by-word captions and sound effects.
 
-Built on claude-video-effects by Vibha Ramprakash (MIT). Adam Digital adds captions, sound effects,
+Built on claude-video-effects by Vibha Ramprakash (MIT). Includes captions, sound effects,
 pause trimming (trim.py), a name/handle profile and the pop-word, logo-link, card-drop and halftone-paper effects.
 
 One effect:    python fx.py orbit in.mp4 out.mp4 --start 3.2 --end 6
@@ -2183,7 +2183,7 @@ def fx_fan_build(c, e):
         place(c, cards[i], px + R * math.sin(r), py - R * math.cos(r), 1, -a, al, behind=True)
 
 
-# ---------- Adam Digital additions: signature effects ----------
+# ---------- Creatofy additions: signature effects ----------
 import logos
 
 
@@ -2358,7 +2358,7 @@ def paper_layout(block, W, u):
     return items
 
 
-# ---------- Adam Digital additions: captions ----------
+# ---------- Creatofy additions: captions ----------
 STOP = set("a an the and or but so to of in on at for with by from as is are was were be been it its it's this that these those i i'm "
            "i'll i've you you're your we our they their he she his her my me us them do does did not no yes just like can will "
            "would could should has have had than then there here what when where who why how all any some more most very really "
@@ -2449,7 +2449,7 @@ CAP_HIDE = {'halftone-paper', 'checklist', 'liquid-glass-graph', 'tier-list', 'm
             'glass-widgets', 'timeline', 'profile-wall', 'headline-wall', 'pastel-word', 'check-pills'}  # these own the lower screen
 
 
-@effect('captions', 'word-by-word captions in Adam Digital styles: clean (default), bold, pill or grey')
+@effect('captions', 'word-by-word captions in Creatofy styles: clean (default), bold, pill or grey')
 def fx_captions(c, e):
     hide = cached(e, 'hide', lambda: [tuple(float(x) for x in h.split('-')[:2]) for h in str(e.o.get('hide', '')).split('|') if '-' in h])
     if c.act & CAP_HIDE or any(a <= c.t < b for a, b in hide): return
