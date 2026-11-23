@@ -6,7 +6,7 @@ Drop your talking-head video into Claude Code and type `/effects`. You get 55 ef
 
 Packaged and maintained by **Creatofy** ([creatofy.com](https://creatofy.com)).
 
-![All 55 effects and the 4 caption styles](assets/preview.jpg)
+![All 55 effects and the 4 caption styles](assets/creatofy-effects-preview.jpg)
 
 ## Install (one line)
 
